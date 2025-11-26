@@ -10,8 +10,8 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <main className="py-24">
-      <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto flex items-stretch gap-8 rounded-4xl bg-neutral-800 text-zinc-50 dark:bg-zinc-50 dark:text-neutral-800 h-[85vh]">
+    <main className="pt-24 max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
+      <div className="w-full flex items-stretch gap-8 rounded-3xl bg-neutral-800 text-zinc-50 dark:bg-zinc-50 dark:text-neutral-800 h-[85vh]">
         <div className="w-full h-full flex flex-col justify-between px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
           <h1 className="font-extrabold text-7xl">Marchenda Ezafuwandhana</h1>
           <p className="max-w-sm indent-8 sm:indent-12 lg:indent-16">
